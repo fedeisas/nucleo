@@ -14,14 +14,15 @@
 		
 		li {
 			float:left;
-			margin:0px 3px;
+			margin:0px 2px;
 
 			a, a:visited {
 				background:red;
 				display:block;
 				margin-bottom: 5px;
-				padding:5px 10px;
+				padding:5px 5px;
 				color: #FFF;
+				font-size:ms(1);
 			}
 			&:hover, &.active {
 				border-bottom: 1px solid #000;

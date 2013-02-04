@@ -2654,3 +2654,409 @@ DEBUG - 2013-02-04 15:04:05 --> UTF-8 Support Enabled
 DEBUG - 2013-02-04 15:04:05 --> URI Class Initialized
 DEBUG - 2013-02-04 15:04:05 --> Router Class Initialized
 ERROR - 2013-02-04 15:04:05 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-02-04 15:04:50 --> Config Class Initialized
+DEBUG - 2013-02-04 15:04:50 --> Hooks Class Initialized
+DEBUG - 2013-02-04 15:04:50 --> Utf8 Class Initialized
+DEBUG - 2013-02-04 15:04:50 --> UTF-8 Support Enabled
+DEBUG - 2013-02-04 15:04:50 --> URI Class Initialized
+DEBUG - 2013-02-04 15:04:50 --> Router Class Initialized
+DEBUG - 2013-02-04 15:04:50 --> Output Class Initialized
+DEBUG - 2013-02-04 15:04:50 --> Security Class Initialized
+DEBUG - 2013-02-04 15:04:50 --> Input Class Initialized
+DEBUG - 2013-02-04 15:04:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-04 15:04:50 --> Language Class Initialized
+DEBUG - 2013-02-04 15:04:50 --> Loader Class Initialized
+DEBUG - 2013-02-04 15:04:50 --> Config file loaded: application/config/nucleo.php
+DEBUG - 2013-02-04 15:04:50 --> Helper loaded: url_helper
+DEBUG - 2013-02-04 15:04:50 --> Helper loaded: html_helper
+DEBUG - 2013-02-04 15:04:50 --> Helper loaded: text_helper
+DEBUG - 2013-02-04 15:04:50 --> Helper loaded: form_helper
+DEBUG - 2013-02-04 15:04:50 --> Helper loaded: display_helper
+DEBUG - 2013-02-04 15:04:50 --> Carabiner: Library initialized.
+DEBUG - 2013-02-04 15:04:50 --> Config file loaded: sparks/carabiner/1.5.4/config/carabiner.php
+DEBUG - 2013-02-04 15:04:50 --> Carabiner: config loaded from config file.
+DEBUG - 2013-02-04 15:04:50 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:04:50 --> Carabiner: less_css loaded.
+DEBUG - 2013-02-04 15:04:50 --> User Agent Class Initialized
+DEBUG - 2013-02-04 15:04:50 --> Template class Initialized
+DEBUG - 2013-02-04 15:04:50 --> Controller Class Initialized
+DEBUG - 2013-02-04 15:04:50 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:04:50 --> File loaded: application/views/common/css.php
+DEBUG - 2013-02-04 15:04:50 --> File loaded: application/views/common/js.php
+DEBUG - 2013-02-04 15:04:50 --> File loaded: application/views/common/meta.php
+DEBUG - 2013-02-04 15:04:50 --> File loaded: application/views/mayoristas/common/header.php
+DEBUG - 2013-02-04 15:04:50 --> File loaded: application/views/mayoristas/common/footer.php
+DEBUG - 2013-02-04 15:04:50 --> File loaded: application/views/mayoristas/common/sidebar_menu.php
+DEBUG - 2013-02-04 15:04:50 --> File loaded: application/views/mayoristas/nenas/video.php
+DEBUG - 2013-02-04 15:04:50 --> File loaded: application/views/layouts/main.php
+DEBUG - 2013-02-04 15:04:50 --> Final output sent to browser
+DEBUG - 2013-02-04 15:04:50 --> Total execution time: 0.0430
+DEBUG - 2013-02-04 15:11:01 --> Config Class Initialized
+DEBUG - 2013-02-04 15:11:01 --> Hooks Class Initialized
+DEBUG - 2013-02-04 15:11:01 --> Utf8 Class Initialized
+DEBUG - 2013-02-04 15:11:01 --> UTF-8 Support Enabled
+DEBUG - 2013-02-04 15:11:01 --> URI Class Initialized
+DEBUG - 2013-02-04 15:11:01 --> Router Class Initialized
+DEBUG - 2013-02-04 15:11:01 --> No URI present. Default controller set.
+DEBUG - 2013-02-04 15:11:01 --> Output Class Initialized
+DEBUG - 2013-02-04 15:11:01 --> Security Class Initialized
+DEBUG - 2013-02-04 15:11:01 --> Input Class Initialized
+DEBUG - 2013-02-04 15:11:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-04 15:11:01 --> Language Class Initialized
+DEBUG - 2013-02-04 15:11:01 --> Loader Class Initialized
+DEBUG - 2013-02-04 15:11:01 --> Config file loaded: application/config/nucleo.php
+DEBUG - 2013-02-04 15:11:01 --> Helper loaded: url_helper
+DEBUG - 2013-02-04 15:11:01 --> Helper loaded: html_helper
+DEBUG - 2013-02-04 15:11:01 --> Helper loaded: text_helper
+DEBUG - 2013-02-04 15:11:01 --> Helper loaded: form_helper
+DEBUG - 2013-02-04 15:11:01 --> Helper loaded: display_helper
+DEBUG - 2013-02-04 15:11:01 --> Carabiner: Library initialized.
+DEBUG - 2013-02-04 15:11:01 --> Config file loaded: sparks/carabiner/1.5.4/config/carabiner.php
+DEBUG - 2013-02-04 15:11:01 --> Carabiner: config loaded from config file.
+DEBUG - 2013-02-04 15:11:01 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:11:01 --> Carabiner: less_css loaded.
+DEBUG - 2013-02-04 15:11:01 --> User Agent Class Initialized
+DEBUG - 2013-02-04 15:11:01 --> Template class Initialized
+DEBUG - 2013-02-04 15:11:01 --> Controller Class Initialized
+DEBUG - 2013-02-04 15:11:01 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:11:01 --> File loaded: application/views/common/css.php
+DEBUG - 2013-02-04 15:11:01 --> File loaded: application/views/common/js.php
+DEBUG - 2013-02-04 15:11:01 --> File loaded: application/views/common/meta.php
+DEBUG - 2013-02-04 15:11:01 --> File loaded: application/views/common/home_header.php
+DEBUG - 2013-02-04 15:11:01 --> File loaded: application/views/mayoristas/home.php
+DEBUG - 2013-02-04 15:11:01 --> File loaded: application/views/layouts/main.php
+DEBUG - 2013-02-04 15:11:01 --> Final output sent to browser
+DEBUG - 2013-02-04 15:11:01 --> Total execution time: 0.0619
+DEBUG - 2013-02-04 15:11:03 --> Config Class Initialized
+DEBUG - 2013-02-04 15:11:03 --> Hooks Class Initialized
+DEBUG - 2013-02-04 15:11:03 --> Utf8 Class Initialized
+DEBUG - 2013-02-04 15:11:03 --> UTF-8 Support Enabled
+DEBUG - 2013-02-04 15:11:03 --> URI Class Initialized
+DEBUG - 2013-02-04 15:11:03 --> Router Class Initialized
+DEBUG - 2013-02-04 15:11:03 --> Output Class Initialized
+DEBUG - 2013-02-04 15:11:03 --> Security Class Initialized
+DEBUG - 2013-02-04 15:11:03 --> Input Class Initialized
+DEBUG - 2013-02-04 15:11:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-04 15:11:03 --> Language Class Initialized
+DEBUG - 2013-02-04 15:11:03 --> Loader Class Initialized
+DEBUG - 2013-02-04 15:11:03 --> Config file loaded: application/config/nucleo.php
+DEBUG - 2013-02-04 15:11:03 --> Helper loaded: url_helper
+DEBUG - 2013-02-04 15:11:03 --> Helper loaded: html_helper
+DEBUG - 2013-02-04 15:11:03 --> Helper loaded: text_helper
+DEBUG - 2013-02-04 15:11:03 --> Helper loaded: form_helper
+DEBUG - 2013-02-04 15:11:03 --> Helper loaded: display_helper
+DEBUG - 2013-02-04 15:11:03 --> Carabiner: Library initialized.
+DEBUG - 2013-02-04 15:11:03 --> Config file loaded: sparks/carabiner/1.5.4/config/carabiner.php
+DEBUG - 2013-02-04 15:11:03 --> Carabiner: config loaded from config file.
+DEBUG - 2013-02-04 15:11:03 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:11:03 --> Carabiner: less_css loaded.
+DEBUG - 2013-02-04 15:11:03 --> User Agent Class Initialized
+DEBUG - 2013-02-04 15:11:03 --> Template class Initialized
+DEBUG - 2013-02-04 15:11:03 --> Controller Class Initialized
+DEBUG - 2013-02-04 15:11:03 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:11:03 --> File loaded: application/views/common/css.php
+DEBUG - 2013-02-04 15:11:03 --> File loaded: application/views/common/js.php
+DEBUG - 2013-02-04 15:11:03 --> File loaded: application/views/common/meta.php
+DEBUG - 2013-02-04 15:11:03 --> File loaded: application/views/mayoristas/common/header.php
+DEBUG - 2013-02-04 15:11:03 --> File loaded: application/views/mayoristas/common/footer.php
+DEBUG - 2013-02-04 15:11:03 --> File loaded: application/views/mayoristas/common/sidebar_menu.php
+DEBUG - 2013-02-04 15:11:03 --> File loaded: application/views/mayoristas/mujer/coleccion.php
+DEBUG - 2013-02-04 15:11:03 --> File loaded: application/views/layouts/main.php
+DEBUG - 2013-02-04 15:11:03 --> Final output sent to browser
+DEBUG - 2013-02-04 15:11:03 --> Total execution time: 0.0952
+DEBUG - 2013-02-04 15:13:36 --> Config Class Initialized
+DEBUG - 2013-02-04 15:13:36 --> Hooks Class Initialized
+DEBUG - 2013-02-04 15:13:36 --> Utf8 Class Initialized
+DEBUG - 2013-02-04 15:13:36 --> UTF-8 Support Enabled
+DEBUG - 2013-02-04 15:13:36 --> URI Class Initialized
+DEBUG - 2013-02-04 15:13:36 --> Router Class Initialized
+DEBUG - 2013-02-04 15:13:36 --> Output Class Initialized
+DEBUG - 2013-02-04 15:13:36 --> Security Class Initialized
+DEBUG - 2013-02-04 15:13:36 --> Input Class Initialized
+DEBUG - 2013-02-04 15:13:36 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-04 15:13:36 --> Language Class Initialized
+DEBUG - 2013-02-04 15:13:36 --> Loader Class Initialized
+DEBUG - 2013-02-04 15:13:36 --> Config file loaded: application/config/nucleo.php
+DEBUG - 2013-02-04 15:13:36 --> Helper loaded: url_helper
+DEBUG - 2013-02-04 15:13:36 --> Helper loaded: html_helper
+DEBUG - 2013-02-04 15:13:36 --> Helper loaded: text_helper
+DEBUG - 2013-02-04 15:13:36 --> Helper loaded: form_helper
+DEBUG - 2013-02-04 15:13:36 --> Helper loaded: display_helper
+DEBUG - 2013-02-04 15:13:36 --> Carabiner: Library initialized.
+DEBUG - 2013-02-04 15:13:36 --> Config file loaded: sparks/carabiner/1.5.4/config/carabiner.php
+DEBUG - 2013-02-04 15:13:36 --> Carabiner: config loaded from config file.
+DEBUG - 2013-02-04 15:13:36 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:13:36 --> Carabiner: less_css loaded.
+DEBUG - 2013-02-04 15:13:36 --> User Agent Class Initialized
+DEBUG - 2013-02-04 15:13:36 --> Template class Initialized
+DEBUG - 2013-02-04 15:13:36 --> Controller Class Initialized
+DEBUG - 2013-02-04 15:13:36 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:13:36 --> File loaded: application/views/common/css.php
+DEBUG - 2013-02-04 15:13:36 --> File loaded: application/views/common/js.php
+DEBUG - 2013-02-04 15:13:36 --> File loaded: application/views/common/meta.php
+DEBUG - 2013-02-04 15:13:36 --> File loaded: application/views/mayoristas/common/header.php
+DEBUG - 2013-02-04 15:13:36 --> File loaded: application/views/mayoristas/common/footer.php
+DEBUG - 2013-02-04 15:13:36 --> File loaded: application/views/mayoristas/common/sidebar_menu.php
+DEBUG - 2013-02-04 15:13:36 --> File loaded: application/views/mayoristas/mujer/coleccion.php
+DEBUG - 2013-02-04 15:13:36 --> File loaded: application/views/layouts/main.php
+DEBUG - 2013-02-04 15:13:36 --> Final output sent to browser
+DEBUG - 2013-02-04 15:13:36 --> Total execution time: 0.0262
+DEBUG - 2013-02-04 15:13:37 --> Config Class Initialized
+DEBUG - 2013-02-04 15:13:37 --> Hooks Class Initialized
+DEBUG - 2013-02-04 15:13:37 --> Utf8 Class Initialized
+DEBUG - 2013-02-04 15:13:37 --> UTF-8 Support Enabled
+DEBUG - 2013-02-04 15:13:37 --> URI Class Initialized
+DEBUG - 2013-02-04 15:13:37 --> Router Class Initialized
+DEBUG - 2013-02-04 15:13:37 --> Output Class Initialized
+DEBUG - 2013-02-04 15:13:37 --> Security Class Initialized
+DEBUG - 2013-02-04 15:13:37 --> Input Class Initialized
+DEBUG - 2013-02-04 15:13:37 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-04 15:13:37 --> Language Class Initialized
+DEBUG - 2013-02-04 15:13:37 --> Loader Class Initialized
+DEBUG - 2013-02-04 15:13:37 --> Config file loaded: application/config/nucleo.php
+DEBUG - 2013-02-04 15:13:37 --> Helper loaded: url_helper
+DEBUG - 2013-02-04 15:13:37 --> Helper loaded: html_helper
+DEBUG - 2013-02-04 15:13:37 --> Helper loaded: text_helper
+DEBUG - 2013-02-04 15:13:37 --> Helper loaded: form_helper
+DEBUG - 2013-02-04 15:13:37 --> Helper loaded: display_helper
+DEBUG - 2013-02-04 15:13:37 --> Carabiner: Library initialized.
+DEBUG - 2013-02-04 15:13:37 --> Config file loaded: sparks/carabiner/1.5.4/config/carabiner.php
+DEBUG - 2013-02-04 15:13:37 --> Carabiner: config loaded from config file.
+DEBUG - 2013-02-04 15:13:37 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:13:37 --> Carabiner: less_css loaded.
+DEBUG - 2013-02-04 15:13:37 --> User Agent Class Initialized
+DEBUG - 2013-02-04 15:13:37 --> Template class Initialized
+DEBUG - 2013-02-04 15:13:37 --> Controller Class Initialized
+DEBUG - 2013-02-04 15:13:37 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:13:37 --> File loaded: application/views/common/css.php
+DEBUG - 2013-02-04 15:13:37 --> File loaded: application/views/common/js.php
+DEBUG - 2013-02-04 15:13:37 --> File loaded: application/views/common/meta.php
+DEBUG - 2013-02-04 15:13:37 --> File loaded: application/views/mayoristas/common/header.php
+DEBUG - 2013-02-04 15:13:37 --> File loaded: application/views/mayoristas/common/footer.php
+DEBUG - 2013-02-04 15:13:37 --> File loaded: application/views/mayoristas/common/sidebar_menu.php
+DEBUG - 2013-02-04 15:13:37 --> File loaded: application/views/mayoristas/mujer/coleccion.php
+DEBUG - 2013-02-04 15:13:37 --> File loaded: application/views/layouts/main.php
+DEBUG - 2013-02-04 15:13:37 --> Final output sent to browser
+DEBUG - 2013-02-04 15:13:37 --> Total execution time: 0.0183
+DEBUG - 2013-02-04 15:13:38 --> Config Class Initialized
+DEBUG - 2013-02-04 15:13:38 --> Hooks Class Initialized
+DEBUG - 2013-02-04 15:13:38 --> Utf8 Class Initialized
+DEBUG - 2013-02-04 15:13:38 --> UTF-8 Support Enabled
+DEBUG - 2013-02-04 15:13:38 --> URI Class Initialized
+DEBUG - 2013-02-04 15:13:38 --> Router Class Initialized
+DEBUG - 2013-02-04 15:13:38 --> Output Class Initialized
+DEBUG - 2013-02-04 15:13:38 --> Security Class Initialized
+DEBUG - 2013-02-04 15:13:38 --> Input Class Initialized
+DEBUG - 2013-02-04 15:13:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-04 15:13:38 --> Language Class Initialized
+DEBUG - 2013-02-04 15:13:38 --> Loader Class Initialized
+DEBUG - 2013-02-04 15:13:38 --> Config file loaded: application/config/nucleo.php
+DEBUG - 2013-02-04 15:13:38 --> Helper loaded: url_helper
+DEBUG - 2013-02-04 15:13:38 --> Helper loaded: html_helper
+DEBUG - 2013-02-04 15:13:38 --> Helper loaded: text_helper
+DEBUG - 2013-02-04 15:13:38 --> Helper loaded: form_helper
+DEBUG - 2013-02-04 15:13:38 --> Helper loaded: display_helper
+DEBUG - 2013-02-04 15:13:38 --> Carabiner: Library initialized.
+DEBUG - 2013-02-04 15:13:38 --> Config file loaded: sparks/carabiner/1.5.4/config/carabiner.php
+DEBUG - 2013-02-04 15:13:38 --> Carabiner: config loaded from config file.
+DEBUG - 2013-02-04 15:13:38 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:13:38 --> Carabiner: less_css loaded.
+DEBUG - 2013-02-04 15:13:38 --> User Agent Class Initialized
+DEBUG - 2013-02-04 15:13:38 --> Template class Initialized
+DEBUG - 2013-02-04 15:13:38 --> Controller Class Initialized
+DEBUG - 2013-02-04 15:13:38 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:13:38 --> File loaded: application/views/common/css.php
+DEBUG - 2013-02-04 15:13:38 --> File loaded: application/views/common/js.php
+DEBUG - 2013-02-04 15:13:38 --> File loaded: application/views/common/meta.php
+DEBUG - 2013-02-04 15:13:38 --> File loaded: application/views/mayoristas/common/header.php
+DEBUG - 2013-02-04 15:13:38 --> File loaded: application/views/mayoristas/common/footer.php
+DEBUG - 2013-02-04 15:13:38 --> File loaded: application/views/mayoristas/common/sidebar_menu.php
+DEBUG - 2013-02-04 15:13:38 --> File loaded: application/views/mayoristas/mujer/coleccion.php
+DEBUG - 2013-02-04 15:13:38 --> File loaded: application/views/layouts/main.php
+DEBUG - 2013-02-04 15:13:38 --> Final output sent to browser
+DEBUG - 2013-02-04 15:13:38 --> Total execution time: 0.0219
+DEBUG - 2013-02-04 15:13:39 --> Config Class Initialized
+DEBUG - 2013-02-04 15:13:39 --> Hooks Class Initialized
+DEBUG - 2013-02-04 15:13:39 --> Utf8 Class Initialized
+DEBUG - 2013-02-04 15:13:39 --> UTF-8 Support Enabled
+DEBUG - 2013-02-04 15:13:39 --> URI Class Initialized
+DEBUG - 2013-02-04 15:13:39 --> Router Class Initialized
+DEBUG - 2013-02-04 15:13:39 --> Output Class Initialized
+DEBUG - 2013-02-04 15:13:39 --> Security Class Initialized
+DEBUG - 2013-02-04 15:13:39 --> Input Class Initialized
+DEBUG - 2013-02-04 15:13:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-04 15:13:39 --> Language Class Initialized
+DEBUG - 2013-02-04 15:13:39 --> Loader Class Initialized
+DEBUG - 2013-02-04 15:13:39 --> Config file loaded: application/config/nucleo.php
+DEBUG - 2013-02-04 15:13:39 --> Helper loaded: url_helper
+DEBUG - 2013-02-04 15:13:39 --> Helper loaded: html_helper
+DEBUG - 2013-02-04 15:13:39 --> Helper loaded: text_helper
+DEBUG - 2013-02-04 15:13:39 --> Helper loaded: form_helper
+DEBUG - 2013-02-04 15:13:39 --> Helper loaded: display_helper
+DEBUG - 2013-02-04 15:13:39 --> Carabiner: Library initialized.
+DEBUG - 2013-02-04 15:13:39 --> Config file loaded: sparks/carabiner/1.5.4/config/carabiner.php
+DEBUG - 2013-02-04 15:13:39 --> Carabiner: config loaded from config file.
+DEBUG - 2013-02-04 15:13:39 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:13:39 --> Carabiner: less_css loaded.
+DEBUG - 2013-02-04 15:13:39 --> User Agent Class Initialized
+DEBUG - 2013-02-04 15:13:39 --> Template class Initialized
+DEBUG - 2013-02-04 15:13:39 --> Controller Class Initialized
+DEBUG - 2013-02-04 15:13:39 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:13:39 --> File loaded: application/views/common/css.php
+DEBUG - 2013-02-04 15:13:39 --> File loaded: application/views/common/js.php
+DEBUG - 2013-02-04 15:13:39 --> File loaded: application/views/common/meta.php
+DEBUG - 2013-02-04 15:13:39 --> File loaded: application/views/mayoristas/common/header.php
+DEBUG - 2013-02-04 15:13:39 --> File loaded: application/views/mayoristas/common/footer.php
+DEBUG - 2013-02-04 15:13:39 --> File loaded: application/views/mayoristas/common/sidebar_menu.php
+DEBUG - 2013-02-04 15:13:39 --> File loaded: application/views/mayoristas/mujer/coleccion.php
+DEBUG - 2013-02-04 15:13:39 --> File loaded: application/views/layouts/main.php
+DEBUG - 2013-02-04 15:13:39 --> Final output sent to browser
+DEBUG - 2013-02-04 15:13:39 --> Total execution time: 0.0240
+DEBUG - 2013-02-04 15:13:40 --> Config Class Initialized
+DEBUG - 2013-02-04 15:13:40 --> Hooks Class Initialized
+DEBUG - 2013-02-04 15:13:40 --> Utf8 Class Initialized
+DEBUG - 2013-02-04 15:13:40 --> UTF-8 Support Enabled
+DEBUG - 2013-02-04 15:13:40 --> URI Class Initialized
+DEBUG - 2013-02-04 15:13:40 --> Router Class Initialized
+DEBUG - 2013-02-04 15:13:40 --> Output Class Initialized
+DEBUG - 2013-02-04 15:13:40 --> Security Class Initialized
+DEBUG - 2013-02-04 15:13:40 --> Input Class Initialized
+DEBUG - 2013-02-04 15:13:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-04 15:13:40 --> Language Class Initialized
+DEBUG - 2013-02-04 15:13:40 --> Loader Class Initialized
+DEBUG - 2013-02-04 15:13:40 --> Config file loaded: application/config/nucleo.php
+DEBUG - 2013-02-04 15:13:40 --> Helper loaded: url_helper
+DEBUG - 2013-02-04 15:13:40 --> Helper loaded: html_helper
+DEBUG - 2013-02-04 15:13:40 --> Helper loaded: text_helper
+DEBUG - 2013-02-04 15:13:40 --> Helper loaded: form_helper
+DEBUG - 2013-02-04 15:13:40 --> Helper loaded: display_helper
+DEBUG - 2013-02-04 15:13:40 --> Carabiner: Library initialized.
+DEBUG - 2013-02-04 15:13:40 --> Config file loaded: sparks/carabiner/1.5.4/config/carabiner.php
+DEBUG - 2013-02-04 15:13:40 --> Carabiner: config loaded from config file.
+DEBUG - 2013-02-04 15:13:40 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:13:40 --> Carabiner: less_css loaded.
+DEBUG - 2013-02-04 15:13:40 --> User Agent Class Initialized
+DEBUG - 2013-02-04 15:13:40 --> Template class Initialized
+DEBUG - 2013-02-04 15:13:40 --> Controller Class Initialized
+DEBUG - 2013-02-04 15:13:40 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:13:40 --> File loaded: application/views/common/css.php
+DEBUG - 2013-02-04 15:13:40 --> File loaded: application/views/common/js.php
+DEBUG - 2013-02-04 15:13:40 --> File loaded: application/views/common/meta.php
+DEBUG - 2013-02-04 15:13:40 --> File loaded: application/views/mayoristas/common/header.php
+DEBUG - 2013-02-04 15:13:40 --> File loaded: application/views/mayoristas/common/footer.php
+DEBUG - 2013-02-04 15:13:40 --> File loaded: application/views/mayoristas/common/sidebar_menu.php
+DEBUG - 2013-02-04 15:13:40 --> File loaded: application/views/mayoristas/mujer/coleccion.php
+DEBUG - 2013-02-04 15:13:40 --> File loaded: application/views/layouts/main.php
+DEBUG - 2013-02-04 15:13:40 --> Final output sent to browser
+DEBUG - 2013-02-04 15:13:40 --> Total execution time: 0.0285
+DEBUG - 2013-02-04 15:14:04 --> Config Class Initialized
+DEBUG - 2013-02-04 15:14:04 --> Hooks Class Initialized
+DEBUG - 2013-02-04 15:14:04 --> Utf8 Class Initialized
+DEBUG - 2013-02-04 15:14:04 --> UTF-8 Support Enabled
+DEBUG - 2013-02-04 15:14:04 --> URI Class Initialized
+DEBUG - 2013-02-04 15:14:04 --> Router Class Initialized
+DEBUG - 2013-02-04 15:14:04 --> Output Class Initialized
+DEBUG - 2013-02-04 15:14:04 --> Security Class Initialized
+DEBUG - 2013-02-04 15:14:04 --> Input Class Initialized
+DEBUG - 2013-02-04 15:14:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-04 15:14:04 --> Language Class Initialized
+DEBUG - 2013-02-04 15:14:04 --> Loader Class Initialized
+DEBUG - 2013-02-04 15:14:04 --> Config file loaded: application/config/nucleo.php
+DEBUG - 2013-02-04 15:14:04 --> Helper loaded: url_helper
+DEBUG - 2013-02-04 15:14:04 --> Helper loaded: html_helper
+DEBUG - 2013-02-04 15:14:04 --> Helper loaded: text_helper
+DEBUG - 2013-02-04 15:14:04 --> Helper loaded: form_helper
+DEBUG - 2013-02-04 15:14:04 --> Helper loaded: display_helper
+DEBUG - 2013-02-04 15:14:04 --> Carabiner: Library initialized.
+DEBUG - 2013-02-04 15:14:04 --> Config file loaded: sparks/carabiner/1.5.4/config/carabiner.php
+DEBUG - 2013-02-04 15:14:04 --> Carabiner: config loaded from config file.
+DEBUG - 2013-02-04 15:14:04 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:14:04 --> Carabiner: less_css loaded.
+DEBUG - 2013-02-04 15:14:04 --> User Agent Class Initialized
+DEBUG - 2013-02-04 15:14:04 --> Template class Initialized
+DEBUG - 2013-02-04 15:14:04 --> Controller Class Initialized
+DEBUG - 2013-02-04 15:14:04 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:14:04 --> File loaded: application/views/common/css.php
+DEBUG - 2013-02-04 15:14:04 --> File loaded: application/views/common/js.php
+DEBUG - 2013-02-04 15:14:04 --> File loaded: application/views/common/meta.php
+DEBUG - 2013-02-04 15:14:04 --> File loaded: application/views/mayoristas/common/header.php
+DEBUG - 2013-02-04 15:14:04 --> File loaded: application/views/mayoristas/common/footer.php
+DEBUG - 2013-02-04 15:14:04 --> File loaded: application/views/mayoristas/common/sidebar_menu.php
+DEBUG - 2013-02-04 15:14:04 --> File loaded: application/views/mayoristas/mujer/coleccion.php
+DEBUG - 2013-02-04 15:14:04 --> File loaded: application/views/layouts/main.php
+DEBUG - 2013-02-04 15:14:04 --> Final output sent to browser
+DEBUG - 2013-02-04 15:14:04 --> Total execution time: 0.0233
+DEBUG - 2013-02-04 15:14:06 --> Config Class Initialized
+DEBUG - 2013-02-04 15:14:06 --> Hooks Class Initialized
+DEBUG - 2013-02-04 15:14:06 --> Utf8 Class Initialized
+DEBUG - 2013-02-04 15:14:06 --> UTF-8 Support Enabled
+DEBUG - 2013-02-04 15:14:06 --> URI Class Initialized
+DEBUG - 2013-02-04 15:14:06 --> Router Class Initialized
+DEBUG - 2013-02-04 15:14:06 --> Output Class Initialized
+DEBUG - 2013-02-04 15:14:06 --> Security Class Initialized
+DEBUG - 2013-02-04 15:14:06 --> Input Class Initialized
+DEBUG - 2013-02-04 15:14:06 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-04 15:14:06 --> Language Class Initialized
+DEBUG - 2013-02-04 15:14:06 --> Loader Class Initialized
+DEBUG - 2013-02-04 15:14:06 --> Config file loaded: application/config/nucleo.php
+DEBUG - 2013-02-04 15:14:06 --> Helper loaded: url_helper
+DEBUG - 2013-02-04 15:14:06 --> Helper loaded: html_helper
+DEBUG - 2013-02-04 15:14:06 --> Helper loaded: text_helper
+DEBUG - 2013-02-04 15:14:06 --> Helper loaded: form_helper
+DEBUG - 2013-02-04 15:14:06 --> Helper loaded: display_helper
+DEBUG - 2013-02-04 15:14:06 --> Carabiner: Library initialized.
+DEBUG - 2013-02-04 15:14:06 --> Config file loaded: sparks/carabiner/1.5.4/config/carabiner.php
+DEBUG - 2013-02-04 15:14:06 --> Carabiner: config loaded from config file.
+DEBUG - 2013-02-04 15:14:06 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:14:06 --> Carabiner: less_css loaded.
+DEBUG - 2013-02-04 15:14:06 --> User Agent Class Initialized
+DEBUG - 2013-02-04 15:14:06 --> Template class Initialized
+DEBUG - 2013-02-04 15:14:06 --> Controller Class Initialized
+DEBUG - 2013-02-04 15:14:06 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:14:06 --> File loaded: application/views/common/css.php
+DEBUG - 2013-02-04 15:14:06 --> File loaded: application/views/common/js.php
+DEBUG - 2013-02-04 15:14:06 --> File loaded: application/views/common/meta.php
+DEBUG - 2013-02-04 15:14:06 --> File loaded: application/views/mayoristas/common/header.php
+DEBUG - 2013-02-04 15:14:06 --> File loaded: application/views/mayoristas/common/footer.php
+DEBUG - 2013-02-04 15:14:06 --> File loaded: application/views/mayoristas/common/sidebar_menu.php
+DEBUG - 2013-02-04 15:14:06 --> File loaded: application/views/mayoristas/mujer/coleccion.php
+DEBUG - 2013-02-04 15:14:06 --> File loaded: application/views/layouts/main.php
+DEBUG - 2013-02-04 15:14:06 --> Final output sent to browser
+DEBUG - 2013-02-04 15:14:06 --> Total execution time: 0.0174
+DEBUG - 2013-02-04 15:15:03 --> Config Class Initialized
+DEBUG - 2013-02-04 15:15:03 --> Hooks Class Initialized
+DEBUG - 2013-02-04 15:15:03 --> Utf8 Class Initialized
+DEBUG - 2013-02-04 15:15:03 --> UTF-8 Support Enabled
+DEBUG - 2013-02-04 15:15:03 --> URI Class Initialized
+DEBUG - 2013-02-04 15:15:03 --> Router Class Initialized
+DEBUG - 2013-02-04 15:15:03 --> Output Class Initialized
+DEBUG - 2013-02-04 15:15:03 --> Security Class Initialized
+DEBUG - 2013-02-04 15:15:03 --> Input Class Initialized
+DEBUG - 2013-02-04 15:15:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-04 15:15:03 --> Language Class Initialized
+DEBUG - 2013-02-04 15:15:03 --> Loader Class Initialized
+DEBUG - 2013-02-04 15:15:03 --> Config file loaded: application/config/nucleo.php
+DEBUG - 2013-02-04 15:15:03 --> Helper loaded: url_helper
+DEBUG - 2013-02-04 15:15:03 --> Helper loaded: html_helper
+DEBUG - 2013-02-04 15:15:03 --> Helper loaded: text_helper
+DEBUG - 2013-02-04 15:15:03 --> Helper loaded: form_helper
+DEBUG - 2013-02-04 15:15:03 --> Helper loaded: display_helper
+DEBUG - 2013-02-04 15:15:03 --> Carabiner: Library initialized.
+DEBUG - 2013-02-04 15:15:03 --> Config file loaded: sparks/carabiner/1.5.4/config/carabiner.php
+DEBUG - 2013-02-04 15:15:03 --> Carabiner: config loaded from config file.
+DEBUG - 2013-02-04 15:15:03 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:15:03 --> Carabiner: less_css loaded.
+DEBUG - 2013-02-04 15:15:03 --> User Agent Class Initialized
+DEBUG - 2013-02-04 15:15:03 --> Template class Initialized
+DEBUG - 2013-02-04 15:15:03 --> Controller Class Initialized
+DEBUG - 2013-02-04 15:15:03 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:15:03 --> File loaded: application/views/common/css.php
+DEBUG - 2013-02-04 15:15:03 --> File loaded: application/views/common/js.php
+DEBUG - 2013-02-04 15:15:03 --> File loaded: application/views/common/meta.php
+DEBUG - 2013-02-04 15:15:03 --> File loaded: application/views/mayoristas/common/header.php
+DEBUG - 2013-02-04 15:15:03 --> File loaded: application/views/mayoristas/common/footer.php
+DEBUG - 2013-02-04 15:15:03 --> File loaded: application/views/mayoristas/common/sidebar_menu.php
+DEBUG - 2013-02-04 15:15:03 --> File loaded: application/views/mayoristas/mujer/coleccion.php
+DEBUG - 2013-02-04 15:15:03 --> File loaded: application/views/layouts/main.php
+DEBUG - 2013-02-04 15:15:03 --> Final output sent to browser
+DEBUG - 2013-02-04 15:15:03 --> Total execution time: 0.0186

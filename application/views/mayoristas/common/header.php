@@ -1,6 +1,6 @@
 <div class="row header">
 
-	<div class="four columns">
+	<div class="three columns">
 
 		<div class="logo">
 			<a href="<?=site_url()?>" title="Nucleo">
@@ -10,7 +10,7 @@
 
 	</div>
 
-	<div class="eight columns">
+	<div class="nine columns">
 
 		<ul class="menu hide-for-small">
 			<li class="<?=active('coleccion', 2)?> <?=active('', 2)?>">
