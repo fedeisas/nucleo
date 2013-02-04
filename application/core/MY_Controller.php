@@ -29,10 +29,10 @@ class MY_Controller extends CI_Controller {
                 array('jquerypp.custom.js'),
                 array('jquery.elastislide.js'),
 
-                array('jquery.gomap-1.3.2.min.js'),
+                array('jquery.gomap-1.3.2.js'),
 
-                array('jquery.validVal-4.3.1-packed.js'),
-                array('jquery.validationEngine-es.js', 'jquery.validationEngine-es.min.js'),
+                array('jquery.validVal-4.3.1.js'),
+                array('jquery.validationEngine-es.js'),
 
                 array('jquery.mousewheel.js'),
                 array('jquery.jscrollpane.min.js'),
