@@ -45,7 +45,7 @@ class Contact extends MY_Controller {
 		if($success) {
 			$output = array(
 				'success' => true,
-				'html' => = '<div class="panel"><h5>Muchas gracias</h5><p>Su mensaje ha sido enviado. Le responderemos a la brevedad.</p></div>'
+				'html' => '<div class="panel"><h5>Muchas gracias</h5><p>Su mensaje ha sido enviado. Le responderemos a la brevedad.</p></div>'
 			);
 		} else {
 			$output = array(
