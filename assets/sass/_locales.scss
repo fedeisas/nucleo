@@ -1,0 +1,102 @@
+.locales-content {
+	margin: 40px auto;
+
+	#map {
+		width:660px;
+		height:300px;
+		img { max-width: none; }
+		*, *:before, *:after {
+		    @include box-sizing(content-box);
+		}
+	}
+
+	@media screen and (max-width: 767px) {
+		#map {
+			width:100%;
+			height:300px;
+		}
+	}
+
+	.address {
+		color:#000;
+		font-family: "FuturaStdBook", sans-serif;
+		h2 {
+			letter-spacing: -1px;
+			font-size: ms(2);
+			color:#000;
+			text-transform: uppercase;
+			margin:0px 0px 10px;
+		}
+		p {
+			font-size: ms(0);
+			margin:0px 0px 5px;
+			em {
+				font-style: italic;
+			}
+			&.phone {
+				margin:10px 0px 20px;
+			}
+		}
+	}
+}
+
+// <div class="six columns address">
+				
+// 	<h2>Barrio Norte</h2>
+// 	<p>Avenida Santa Fé 1998,</p>
+// 	<p>Capital Federal</p>
+// 	<p><em>Buenos Aires, Argentina</em></p>
+
+// 	<p class="phone">tel. (5411) 4111 1111</p>
+
+// </div>
+// <div class="row locales-content">
+
+// 	<section role="main">
+
+// 		<div class="four columns">
+// 			<img src="http://placehold.it/470x500" alt="">
+// 		</div>
+
+// 		<div class="eight columns">
+			
+			
+// 			<div class="row">
+// 				<div class="four columns address">
+				
+// 					<h2>Barrio Norte</h2>
+// 					<p>Avenida Santa Fé 1998,</p>
+// 					<p>Capital Federal</p>
+// 					<p><em>Buenos Aires, Argentina</em></p>
+				
+// 					<p class="phone">tel. (5411) 4111 1111</p>
+				
+// 				</div>
+// 				<div class="four columns address">
+				
+// 					<h2>San Justo</h2>
+// 					<p>Shopping San Justo</p>
+// 					<p>Juan Manuel de Rosas 3910, Local 111</p>
+// 					<p><em>Buenos Aires, Argentina</em></p>
+				
+// 					<p class="phone">tel. (5411) 4888 8888</p>
+				
+// 				</div>
+// 			</div>
+			
+
+// 			<div class="row">
+// 				<div class="eight columns">
+// 					map
+// 				</div>
+// 			</div>
+
+// 		</div>
+// 	</section>
+	
+// 	<?php 
+// 		if( isset($template['partials']['sidebar_menu']) ) {
+// 			echo $template['partials']['sidebar_menu'];
+// 		}
+// 	?>
+// </div>

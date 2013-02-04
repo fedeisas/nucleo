@@ -1,0 +1,41 @@
+.home {
+	.splash-mujer, .splash-nenas {
+		display:block;
+		margin: 0 auto;
+		text-align: center;
+		img {
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		&:hover {
+			@include opacity(0.8);
+		}
+		
+	}
+	a.home-buttons {
+		display: block;
+	    height: 106px;
+	    margin: 10px auto 0;
+	    width: 200px;
+		background: transparent url('../images/home-buttons.jpg') no-repeat center center scroll;
+		text-indent:-9999px;
+
+		&.mujer {
+			background-position: 0px 0px;
+		}
+		&.nenas {
+			background-position: -246px 0px;			
+		}
+
+		&:hover {
+			@include opacity(0.8);
+		}
+	}
+
+	a {
+		@include transition-property(all);
+  		@include transition-duration(1s);
+  		@include transition-timing-function(ease-in);
+	}
+}

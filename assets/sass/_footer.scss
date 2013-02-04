@@ -1,0 +1,33 @@
+.footer {
+	padding:25px 0px;
+	p {
+		color:#000;
+		line-height: 12px;
+    	margin-bottom: 5px;
+
+		a, a:visited {
+			color:#000;
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+		strong {
+			font-weight:bold;
+		}
+		small {
+			@extend p;
+			font-weight: normal;
+			font-size:80%;
+		}
+	}
+
+	a.newsletter {
+		.icon {
+			@include inline-block;
+			width:16px;
+			height:16px;
+			background: transparent url(../images/mail.png) no-repeat center center scroll;
+		}
+	}
+}

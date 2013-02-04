@@ -1,0 +1,65 @@
+.contact-content {
+	@media only screen and (min-width: 768px) {
+		margin:50px auto 20px;
+	}
+
+	h2 {
+		letter-spacing: -1px;
+		font-size: ms(2);
+		color:#000;
+		text-transform: uppercase;
+		margin:0px 0px 10px;
+	}
+
+	h3 {
+		letter-spacing: -1px;
+		font-size: ms(2);
+		text-transform: uppercase;
+		margin:0px 0px 10px;
+		color:#000;
+		font-family: "FuturaStdBook", sans-serif;
+	}
+
+	p {
+		color:#000;
+		font-family: "FuturaStdBook", sans-serif;
+		&.address {
+			margin:0px;
+			font-size:ms(1);
+			line-height: 1.1;
+		}
+		&.phone {
+			font-size:ms(1);
+			margin:15px 0px;
+			line-height: 1.1;
+		}
+		&.hours {
+			font-size: ms(0);
+			margin:0px;
+		}
+	}
+
+	.four.columns {
+		margin-bottom:20px;
+	}
+
+	.button.secondary {
+		font-size: ms(0);
+		text-transform: uppercase;
+	}
+
+	.invalid {
+		@extend .error;
+	}
+
+	p.suggest {
+		a, a:visited {
+			color: #333;
+			text-decoration: underline;
+		}
+		a:hover {
+			color: #333;
+			text-decoration: none;	
+		}
+	}
+}

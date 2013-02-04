@@ -1,0 +1,126 @@
+.header {
+	margin-top: 20px;
+	.logo {
+		@media screen and (max-width: 320px) {
+			text-align: center;
+		}
+	}
+	.menu {
+		margin-top:40px;
+		display:block;
+		float:right;
+		list-style-type:none;
+		font-family: "FuturaStdBook", sans-serif;
+		
+		li {
+			float:left;
+			margin:0px 3px;
+
+			a, a:visited {
+				background:red;
+				display:block;
+				margin-bottom: 5px;
+				padding:5px 10px;
+				color: #FFF;
+			}
+			&:hover, &.active {
+				border-bottom: 1px solid #000;
+			}
+
+			&.social {
+				background:red;
+				padding:0px 5px;
+				&:hover {
+					border-bottom: 0px solid #000;
+				}
+				a { 
+
+					background-color:transparent;
+					@include inline-block; 
+				}
+			}
+		}
+	}
+
+	.menu li.social .facebook, 
+	.menu li.social .twitter {
+		width:16px;
+		display:inline-block;
+		text-indent:-9999px;
+		margin:0px 2px;
+	}
+	.menu li.social .facebook {
+		background: url('../images/facebook.png') no-repeat center center scroll;
+	}
+	.menu li.social .twitter {
+		background: url('../images/twitter.png') no-repeat center center scroll;
+	}
+}
+
+a.menu-button.button,
+a.menu-button.button:visited {
+	@include box-shadow(0px 0px 10px -4px #999);
+    @include border-radius(5px);
+    background: #AAA;
+	text-align:left;
+	font-weight: 400;
+	line-height:36px;
+	padding:1px 15px;
+	text-decoration:none;
+	color:#FFF;
+	display:block;
+	width:70%;
+	margin:20px auto;
+	font-family: "FuturaStdBook", sans-serif;
+	border:0px solid #000;
+	
+	span {
+		border-left: 1px solid #EEE;
+	    font-size: 10px;
+	    margin-left: 5px;
+	    padding-left: 13px;
+	    float:right;
+	}
+}
+
+a.menu-button.button:hover {
+	text-decoration:none;
+}
+
+#topMenu .nav-bar {
+	margin:0px;
+}
+
+#topMenu {
+	font-family: "FuturaStdBook", sans-serif;
+	ul#nav {
+		background:#CCC;
+		
+		li, li:hover {
+			background-color: transparent;
+			border-color: #FFF;
+			border-width:1px;
+			border-top:0px solid transparent;
+			a, a:visited {
+				color: #222;
+			}
+			a:hover {
+				background-color: #BBB;
+			}
+		}
+	}
+}
+
+.nenas .menu li a,
+.nenas .menu li a:visited,
+.nenas .menu li.social,
+.nenas .menu li.active a {
+	background-color: #d39886;
+}
+
+.mujer .menu li a,
+.mujer .menu li a:visited,
+.mujer .menu li.social,
+.mujer .menu li.active a {
+	background-color: #000000;
+}
