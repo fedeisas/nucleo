@@ -40,13 +40,29 @@ class Contact extends MY_Controller {
 			if($this->email->send()) {
 				$success = true;
 			}
-		} 
+		}
 
 		if($success) {
-			echo '<div class="panel"><h5>Muchas gracias</h5><p>Su mensaje ha sido enviado. Le responderemos a la brevedad.</p></div>'; die();
+			$output = array(
+				'success' => true,
+				'html' => = '<div class="panel"><h5>Muchas gracias</h5><p>Su mensaje ha sido enviado. Le responderemos a la brevedad.</p></div>'
+			);
 		} else {
-			echo '<div class="alert-box alert">Ha ocurrido un error. Por favor, intente nuevamente. Muchas gracias. <a href="" class="close">&times;</a></div>'; die();
+			$output = array(
+				'success' => false,
+				'html' => '<div class="alert-box alert">Ha ocurrido un error. Por favor, intente nuevamente. Muchas gracias. <a href="" class="close">&times;</a></div>'
+			);
 		}
+
+		$this->output->set_header("HTTP/1.0 200 OK");
+        $this->output->set_header("HTTP/1.1 200 OK");
+        $this->output->set_content_type('application/json');
+        $this->output->set_header("Expires: " . gmdate ("D, d M Y H:i:s", time()) . " GMT");
+        $this->output->set_output(
+            json_encode(
+                $output
+            )
+        );
 	}
 }
 

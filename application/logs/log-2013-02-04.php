@@ -4441,3 +4441,5 @@ DEBUG - 2013-02-04 16:09:33 --> Template class Initialized
 DEBUG - 2013-02-04 16:09:33 --> Controller Class Initialized
 DEBUG - 2013-02-04 16:09:33 --> Carabiner: library configured.
 DEBUG - 2013-02-04 16:09:33 --> Form Validation Class Initialized
+DEBUG - 2013-02-04 16:11:01 --> Language file loaded: language/english/email_lang.php
+DEBUG - 2013-02-04 16:11:08 --> Language file loaded: language/english/email_lang.php
