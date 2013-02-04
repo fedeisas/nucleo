@@ -26,12 +26,14 @@ switch($_SERVER['HTTP_HOST']) {
     case 'nucleomoda.com.ar':
     case 'www.nucleomoda.com.ar':
     case 'nucleomayoristas.loc':
+    case 'nucleomayoristas.fedeisas.com.ar':
         define('SITE', 'mayoristas');
     break;
     
     case 'nucleomoda.net':
     case 'www.nucleomoda.net':
     case 'nucleominoristas.loc':
+    case 'nucleominoristas.fedeisas.com.ar':
         define('SITE', 'minoristas');
     break;
 }
@@ -46,7 +48,7 @@ switch($_SERVER['HTTP_HOST']) {
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
