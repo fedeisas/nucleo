@@ -2,6 +2,20 @@
 
 	<section role="main">
 		<div class="twelve columns">
+
+			<!-- <p>
+				<a href="#" class="button secondary right condiciones-de-compra">
+					<i class="triangle"></i>
+					Condiciones de compra
+				</a>
+				<div class="clearfix"></div>
+			</p> -->
+
+			<div class="panel">
+				<h5>Condiciones de compra</h5>
+				<p>Sólo se realizan compras presentando constancia de CUIT del rubro textil.</p>
+			</div>
+
 			<div class="scroll-pane">
 				<h3 class="question">¿Dónde se pueden adquirir los productos de Nucleo?</h3>
 				<p class="answer">Nuestro único punto de venta mayorista es en la calle Helguera 491 Capital Federal, en pleno centro comercial de Flores.</p>

@@ -54,4 +54,39 @@
     	margin-left: -5px;
     	background:transparent !important;
 	}
+
+	.panel {
+		padding:10px 20px;
+		margin-bottom:12px;
+		h5 {
+			margin-bottom:5px;
+		}
+		p {
+			margin-bottom:0px;
+		}
+	}
+}
+
+.nenas .preguntas-content .condiciones-de-compra {
+	background-color: #d39886;
+	color: #000;
+	font-size:ms(0);
+	margin-bottom:10px;
+	padding: 5px 20px 6px;
+	.triangle {
+		@include cssTriangle(5px, #000, left);
+		@include inline-block;
+	}
+}
+
+.mujer .preguntas-content .condiciones-de-compra {
+	background-color: #000000;
+	color: #FFF;
+	font-size:ms(0);
+	margin-bottom:10px;
+	padding: 5px 20px 6px;
+	.triangle {
+		@include cssTriangle(5px, #FFF, left);
+		@include inline-block;
+	}
 }
