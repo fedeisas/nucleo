@@ -15,7 +15,8 @@ class MY_Controller extends CI_Controller {
 			'base_uri'   => base_url(),
             'dev'        => (ENVIRONMENT === 'development') ? TRUE : FALSE,
             'combine'    => (ENVIRONMENT === 'development') ? FALSE : TRUE,
-            'minify_css' => (ENVIRONMENT === 'development') ? FALSE : TRUE
+            'minify_css' => (ENVIRONMENT === 'development') ? FALSE : TRUE,
+            'minify_js'  => FALSE
 		);
 
 		$this->carabiner->config( $carabiner_config );
