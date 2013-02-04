@@ -28,7 +28,11 @@ $(document).ready(function() {
         oneInfoWindow: true 
     }); 
 
-    $('#contact-form').validVal();
+    $('#contact-form').validVal({
+        validate: {
+            onBlur: false
+        }
+    });
 
     $( "#contact-form input.button" ).click(function( event ) {
 
