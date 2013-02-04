@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
 	$( '#carousel' ).elastislide({
         minItems: 1
     });
@@ -29,6 +30,7 @@ $(document).ready(function() {
     }); 
 
     $('#contact-form').validVal({
+        language: 'es',
         validate: {
             onBlur: false
         }
@@ -62,4 +64,5 @@ $(document).ready(function() {
         horizontalGutter: 100,
         verticalGutter: 100
     });
+    
 });

@@ -9,7 +9,7 @@
 
 			<p class="suggest">Sugerimos leer las <a href="<?=site_url( $this->router->class . "/preguntas" )?>">preguntas frecuentes</a> antes de enviar tu consulta.</p>
 
-			<?=form_open('contact/send', array('id' => 'contact-form'))?>
+			<?=form_open('contact/send', array('id' => 'contact-form', 'class' => 'green' ))?>
 				<input type="text" placeholder="nombre" name="name" class="required">
 				<input type="text" placeholder="email" name="email" class="required email">
 				<input type="text" placeholder="asunto" name="subject" class="required">
