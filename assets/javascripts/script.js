@@ -47,13 +47,15 @@ $(document).ready(function() {
                 type: "POST",
                 url: $("#contact-form").attr('action'),
                 data: form_data,
-                success: function( msg ) {
-                    $("#contact-form").fadeOut({
-                        complete: function() {
-                            $( "#contact-form" ).trigger( "resetForm" );
-                            $('.contact-content .message').html(msg).fadeIn();        
-                        }
-                    });                   
+                success: function( data ) {
+                    if(data.success) {
+                        $("#contact-form").fadeOut({
+                            complete: function() {
+                                $( "#contact-form" ).trigger( "resetForm" );
+                                $('.contact-content .message').html(data.html).fadeIn();
+                            }
+                        });
+                    }    
                 }
             });
         }

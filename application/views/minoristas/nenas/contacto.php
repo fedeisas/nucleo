@@ -13,6 +13,8 @@
 				<textarea name="message" id="" cols="30" rows="10" class="required">mensaje</textarea>
 				<input type="submit" class="button secondary small right" value="Enviar" />
 			<?=form_close()?>
+
+			<div class="message"></div>
 		</div>
 	</section>
 	
