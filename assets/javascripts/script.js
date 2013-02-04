@@ -56,4 +56,10 @@ $(document).ready(function() {
             });
         }
     });
+
+    $('.scroll-pane').jScrollPane({
+        showArrows: true,
+        horizontalGutter: 100,
+        verticalGutter: 100
+    });
 });

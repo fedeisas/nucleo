@@ -4,7 +4,7 @@
 		<div class="twelve columns">
 			<ul id="carousel" class="elastislide-list">
 				<?php foreach(range(1,10) as $number): ?>
-					<li><a href="#"><img src="http://placehold.it/235x450&text=<?=htmlentities("Imágen " . $number)?>" alt="<?=htmlentities("Imágen " . $number)?>" /></a></li>
+					<li><a href="#"><img src="http://placehold.it/235x450" alt="<?=htmlentities("Imágen " . $number)?>" /></a></li>
 				<?php endforeach; ?>
 			</ul>	
 		</div>

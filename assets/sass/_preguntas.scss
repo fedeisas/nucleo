@@ -1,0 +1,57 @@
+.preguntas-content {
+	margin:20px auto;
+
+	h3.question, p.answer {
+		padding: 0px 20px;
+	}
+
+	h3.question {
+		letter-spacing:-1px;
+		font-size:ms(1);
+		color:#000;
+		margin:0px 0px 5px;
+		text-transform: uppercase;
+	}
+
+	p.answer {
+		font-family: "FuturaStdLight", sans-serif;
+		font-size:ms(0);
+		color:#000;
+		margin:0px 0px 20px;
+	}
+
+	.scroll-pane {
+		padding:30px 0px;
+		width: 100%;
+		height: 450px;
+		overflow: auto;
+		background-color: #E7E7E0;
+	}
+
+	.jspCap {
+		display: block;
+		background: #E7E7E0;
+	}
+
+	.jspVerticalBar .jspCap {
+		height: 30px;
+	}
+
+	.jspVerticalBar {
+		right: 30px;
+	}
+
+	.jspArrowUp {
+		@include cssTriangle(10px, #000, bottom);
+		margin-bottom: 3px;
+    	margin-left: -5px;
+    	background:transparent !important;
+	}
+
+	.jspArrowDown {
+		@include cssTriangle(10px, #000, top);
+		margin-top: 3px;
+    	margin-left: -5px;
+    	background:transparent !important;
+	}
+}
