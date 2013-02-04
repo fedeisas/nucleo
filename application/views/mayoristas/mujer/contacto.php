@@ -1,7 +1,7 @@
 <div class="row contact-content">
 	<section role="main">
 		<div class="four columns">
-			<img src="http://placehold.it/303x470" alt="Contacto">
+			<img src="<?=site_url('assets/images/contacto-mujer-mayoristas.jpg')?>" alt="Contacto">
 		</div>
 		<div class="four columns">
 

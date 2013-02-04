@@ -1,7 +1,7 @@
 <div class="row contact-content">
 	<section role="main">
 		<div class="six columns">
-			<img src="http://placehold.it/470x420" alt="">
+			<img src="<?=site_url('assets/images/contacto-nenas-minoristas.jpg')?>" alt="Contacto">
 		</div>
 		<div class="six columns">
 			<h2>Mandanos un mail</h2>

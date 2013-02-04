@@ -2559,3 +2559,98 @@ DEBUG - 2013-02-04 02:02:02 --> UTF-8 Support Enabled
 DEBUG - 2013-02-04 02:02:02 --> URI Class Initialized
 DEBUG - 2013-02-04 02:02:02 --> Router Class Initialized
 ERROR - 2013-02-04 02:02:02 --> 404 Page Not Found --> assets
+DEBUG - 2013-02-04 15:03:26 --> Config Class Initialized
+DEBUG - 2013-02-04 15:03:26 --> Hooks Class Initialized
+DEBUG - 2013-02-04 15:03:26 --> Utf8 Class Initialized
+DEBUG - 2013-02-04 15:03:26 --> UTF-8 Support Enabled
+DEBUG - 2013-02-04 15:03:26 --> URI Class Initialized
+DEBUG - 2013-02-04 15:03:26 --> Router Class Initialized
+DEBUG - 2013-02-04 15:03:26 --> Output Class Initialized
+DEBUG - 2013-02-04 15:03:26 --> Security Class Initialized
+DEBUG - 2013-02-04 15:03:26 --> Input Class Initialized
+DEBUG - 2013-02-04 15:03:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-04 15:03:26 --> Language Class Initialized
+DEBUG - 2013-02-04 15:03:26 --> Loader Class Initialized
+DEBUG - 2013-02-04 15:03:26 --> Config file loaded: application/config/nucleo.php
+DEBUG - 2013-02-04 15:03:26 --> Helper loaded: url_helper
+DEBUG - 2013-02-04 15:03:26 --> Helper loaded: html_helper
+DEBUG - 2013-02-04 15:03:26 --> Helper loaded: text_helper
+DEBUG - 2013-02-04 15:03:26 --> Helper loaded: form_helper
+DEBUG - 2013-02-04 15:03:26 --> Helper loaded: display_helper
+DEBUG - 2013-02-04 15:03:26 --> Carabiner: Library initialized.
+DEBUG - 2013-02-04 15:03:26 --> Config file loaded: sparks/carabiner/1.5.4/config/carabiner.php
+DEBUG - 2013-02-04 15:03:26 --> Carabiner: config loaded from config file.
+DEBUG - 2013-02-04 15:03:26 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:03:26 --> Carabiner: less_css loaded.
+DEBUG - 2013-02-04 15:03:26 --> User Agent Class Initialized
+DEBUG - 2013-02-04 15:03:26 --> Template class Initialized
+DEBUG - 2013-02-04 15:03:26 --> Controller Class Initialized
+DEBUG - 2013-02-04 15:03:26 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:03:26 --> File loaded: application/views/common/css.php
+DEBUG - 2013-02-04 15:03:26 --> File loaded: application/views/common/js.php
+DEBUG - 2013-02-04 15:03:26 --> File loaded: application/views/common/meta.php
+DEBUG - 2013-02-04 15:03:26 --> File loaded: application/views/mayoristas/common/header.php
+DEBUG - 2013-02-04 15:03:26 --> File loaded: application/views/mayoristas/common/footer.php
+DEBUG - 2013-02-04 15:03:26 --> File loaded: application/views/mayoristas/common/sidebar_menu.php
+DEBUG - 2013-02-04 15:03:26 --> File loaded: application/views/mayoristas/nenas/contacto.php
+DEBUG - 2013-02-04 15:03:26 --> File loaded: application/views/layouts/main.php
+DEBUG - 2013-02-04 15:03:26 --> Final output sent to browser
+DEBUG - 2013-02-04 15:03:26 --> Total execution time: 0.3402
+DEBUG - 2013-02-04 15:03:26 --> Config Class Initialized
+DEBUG - 2013-02-04 15:03:26 --> Hooks Class Initialized
+DEBUG - 2013-02-04 15:03:26 --> Utf8 Class Initialized
+DEBUG - 2013-02-04 15:03:26 --> UTF-8 Support Enabled
+DEBUG - 2013-02-04 15:03:26 --> URI Class Initialized
+DEBUG - 2013-02-04 15:03:26 --> Router Class Initialized
+ERROR - 2013-02-04 15:03:26 --> 404 Page Not Found --> assets
+DEBUG - 2013-02-04 15:04:04 --> Config Class Initialized
+DEBUG - 2013-02-04 15:04:04 --> Hooks Class Initialized
+DEBUG - 2013-02-04 15:04:04 --> Utf8 Class Initialized
+DEBUG - 2013-02-04 15:04:04 --> UTF-8 Support Enabled
+DEBUG - 2013-02-04 15:04:04 --> URI Class Initialized
+DEBUG - 2013-02-04 15:04:04 --> Router Class Initialized
+DEBUG - 2013-02-04 15:04:04 --> Output Class Initialized
+DEBUG - 2013-02-04 15:04:04 --> Security Class Initialized
+DEBUG - 2013-02-04 15:04:04 --> Input Class Initialized
+DEBUG - 2013-02-04 15:04:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-02-04 15:04:04 --> Language Class Initialized
+DEBUG - 2013-02-04 15:04:04 --> Loader Class Initialized
+DEBUG - 2013-02-04 15:04:04 --> Config file loaded: application/config/nucleo.php
+DEBUG - 2013-02-04 15:04:04 --> Helper loaded: url_helper
+DEBUG - 2013-02-04 15:04:04 --> Helper loaded: html_helper
+DEBUG - 2013-02-04 15:04:04 --> Helper loaded: text_helper
+DEBUG - 2013-02-04 15:04:04 --> Helper loaded: form_helper
+DEBUG - 2013-02-04 15:04:04 --> Helper loaded: display_helper
+DEBUG - 2013-02-04 15:04:04 --> Carabiner: Library initialized.
+DEBUG - 2013-02-04 15:04:04 --> Config file loaded: sparks/carabiner/1.5.4/config/carabiner.php
+DEBUG - 2013-02-04 15:04:04 --> Carabiner: config loaded from config file.
+DEBUG - 2013-02-04 15:04:04 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:04:04 --> Carabiner: less_css loaded.
+DEBUG - 2013-02-04 15:04:04 --> User Agent Class Initialized
+DEBUG - 2013-02-04 15:04:04 --> Template class Initialized
+DEBUG - 2013-02-04 15:04:04 --> Controller Class Initialized
+DEBUG - 2013-02-04 15:04:04 --> Carabiner: library configured.
+DEBUG - 2013-02-04 15:04:04 --> File loaded: application/views/common/css.php
+DEBUG - 2013-02-04 15:04:04 --> File loaded: application/views/common/js.php
+DEBUG - 2013-02-04 15:04:04 --> File loaded: application/views/common/meta.php
+DEBUG - 2013-02-04 15:04:04 --> File loaded: application/views/mayoristas/common/header.php
+DEBUG - 2013-02-04 15:04:04 --> File loaded: application/views/mayoristas/common/footer.php
+DEBUG - 2013-02-04 15:04:04 --> File loaded: application/views/mayoristas/common/sidebar_menu.php
+DEBUG - 2013-02-04 15:04:04 --> File loaded: application/views/mayoristas/nenas/contacto.php
+DEBUG - 2013-02-04 15:04:04 --> File loaded: application/views/layouts/main.php
+DEBUG - 2013-02-04 15:04:04 --> Final output sent to browser
+DEBUG - 2013-02-04 15:04:04 --> Total execution time: 0.0240
+DEBUG - 2013-02-04 15:04:05 --> Config Class Initialized
+DEBUG - 2013-02-04 15:04:05 --> Hooks Class Initialized
+DEBUG - 2013-02-04 15:04:05 --> Utf8 Class Initialized
+DEBUG - 2013-02-04 15:04:05 --> UTF-8 Support Enabled
+DEBUG - 2013-02-04 15:04:05 --> URI Class Initialized
+DEBUG - 2013-02-04 15:04:05 --> Router Class Initialized
+ERROR - 2013-02-04 15:04:05 --> 404 Page Not Found --> favicon.ico
+DEBUG - 2013-02-04 15:04:05 --> Config Class Initialized
+DEBUG - 2013-02-04 15:04:05 --> Hooks Class Initialized
+DEBUG - 2013-02-04 15:04:05 --> Utf8 Class Initialized
+DEBUG - 2013-02-04 15:04:05 --> UTF-8 Support Enabled
+DEBUG - 2013-02-04 15:04:05 --> URI Class Initialized
+DEBUG - 2013-02-04 15:04:05 --> Router Class Initialized
+ERROR - 2013-02-04 15:04:05 --> 404 Page Not Found --> favicon.ico
