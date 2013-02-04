@@ -9,6 +9,7 @@ install:
 	    git checkout . &&\
 	    git pull origin master &&\
 	    sed -i 's/development/production/' index.php &&\
+	    rm assets/cache/* &&\
 	    rm application/cache/* \
 	"
 	@echo "================================================================="
