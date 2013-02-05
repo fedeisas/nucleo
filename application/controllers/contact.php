@@ -32,7 +32,7 @@ class Contact extends MY_Controller {
 			
 			// set email data
 			$this->email->from($this->input->post('email'), $this->input->post('name'));
-			$this->email->to('federicoisas@gmail.com');
+			$this->email->to('nucleomodas@gmail.com');
 			$this->email->reply_to($this->input->post('email'), $this->input->post('name'));
 			$this->email->subject($this->input->post('subject'));
 			$this->email->message($message);

@@ -39,3 +39,32 @@
   		@include transition-timing-function(ease-in);
 	}
 }
+
+#featured { background: #F4F4F4 url('../images/loading.gif') no-repeat center center scroll; height: 500px; margin:30px auto 50px;}
+#featured img { display: none; }
+#featured.orbit { background: none; }
+#featured.orbit img { display: block; }
+
+.orbit {
+	margin-bottom:50px;
+}
+
+.orbit-wrapper {
+	margin:30px auto 50px;
+}
+
+.orbit-wrapper .slider-nav span {
+	width: 31px;
+	height: 31px;	
+	bottom: -40px;
+	top: auto;
+}
+
+.orbit-wrapper .slider-nav span.right {
+	background: transparent url(../images/arrows.jpg) no-repeat -64px -3px;
+	right:45%;
+}
+.orbit-wrapper .slider-nav span.left {
+	background: transparent url(../images/arrows.jpg) no-repeat -14px -3px;
+	left:45%;
+}

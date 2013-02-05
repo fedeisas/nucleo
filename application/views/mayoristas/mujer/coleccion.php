@@ -2,11 +2,11 @@
 
 	<section role="main">
 		<div class="twelve columns">
-			<ul id="carousel" class="elastislide-list">
+			<div id="featured">
 				<?php foreach(range(1,10) as $number): ?>
-					<li><a href="#"><img src="http://placehold.it/235x450" alt="<?=htmlentities("Imágen " . $number)?>" /></a></li>
+					<img src="http://placehold.it/970x500" alt="<?=htmlentities("Imágen " . $number)?>" />
 				<?php endforeach; ?>
-			</ul>	
+			</div>
 		</div>
 	</section>
 

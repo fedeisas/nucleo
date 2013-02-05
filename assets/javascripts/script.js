@@ -1,9 +1,5 @@
 $(document).ready(function() {
 
-	$( '#carousel' ).elastislide({
-        minItems: 1
-    });
-
     $("#map").goMap({
     	latitude: -34.63955, 
     	longitude: -58.49138,
@@ -67,4 +63,12 @@ $(document).ready(function() {
         verticalGutter: 100
     });
     
+});
+
+$(window).load(function() {
+    $("#featured").orbit({
+        bullets: false,
+        captions: false,
+        timer: true
+    });
 });

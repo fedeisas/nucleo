@@ -47,8 +47,8 @@ class MY_Controller extends CI_Controller {
                 // array('jquery.foundation.tabs.js', 'min/jquery.foundation.tabs.js'),
                 // array('foundation/jquery.foundation.navigation.js'),
                 // array('jquery.foundation.reveal.js', 'min/jquery.foundation.reveal.js'),
-                // array('jquery.foundation.orbit.js', 'min/jquery.foundation.orbit.js'),
-                // array('jquery.easing.1.3.js', 'min/jquery.easing.1.3.js'),
+                array('foundation/jquery.foundation.orbit.js'),
+                array('jquery.easing.1.3.js', 'min/jquery.easing.1.3.js'),
                 // array('jquery.quicksand.js', 'min/jquery.quicksand.js'),
                 // array('jquery.colorbox.js', 'min/jquery.colorbox.js'),
                 array('foundation/jquery.offcanvas.js'),
@@ -62,7 +62,6 @@ class MY_Controller extends CI_Controller {
                 // array('work.js', 'min/work.js'),
 
                 array('foundation/app.js'),
-
                 array('script.js')
             )
         ); 
