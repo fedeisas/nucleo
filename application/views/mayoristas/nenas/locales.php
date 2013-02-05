@@ -3,7 +3,7 @@
 	<section role="main">
 
 		<div class="four columns">
-			<img src="http://placehold.it/303x465" alt="Locales">
+			<img src="<?=site_url('assets/images/locales-ncl.jpg')?>" alt="Locales">
 		</div>
 
 		<div class="eight columns">
