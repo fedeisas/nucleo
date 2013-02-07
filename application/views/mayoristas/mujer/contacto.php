@@ -21,29 +21,14 @@
 		</div>
 		<div class="four columns">
 			<h3>NUCLEO MODA</h3>
-			<p class="address">
-				Concordia 579, Flores
-			</p>
-			<p class="address">
-				C1406APG
-			</p>
-			<p class="address">
-				<em>Buenos Aires, Argentina</em>
-			</p>
-
-			<p class="phone">
-				tel. (5411) 4115 011 (líneas rotativas)
-			</p>
-
-			<p class="address">
-				horario:
-			</p>
-			<p class="hours">
-				Lunes a Viernes de 8:00 a 17:30 hs.
-			</p>
-			<p class="hours">
-				Sábados de 8:00 a 13:00 hs.
-			</p>
+			<p class="address">Helguera 491 (esq. Aranguren)</p>
+			<p class="address">C1406APG</p>
+			<p class="address">Buenos Aires, Argentina.</p>
+			<p class="phone">SOLO VENTAS X MAYOR</p>
+			<p class="phone">Tel. (5411) 4115-0011 líneas rotativas</p>
+			<p class="address">horario de atención:</p>
+			<p class="hours">Lunes a Viernes de 7:30 a 18:30</p>
+			<p class="hours">Sábados de 8:00 a 13:00</p>
 		</div>	
 	</section>
 	
