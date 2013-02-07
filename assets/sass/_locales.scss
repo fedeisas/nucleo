@@ -34,7 +34,15 @@
 				font-style: italic;
 			}
 			&.phone {
-				margin:10px 0px 20px;
+				margin:10px 0px 15px;
+			}
+
+			&.hours {
+				// font-style:italic;
+				margin:0px;
+				&:last-child {
+					margin-bottom:20px;
+				}
 			}
 		}
 	}

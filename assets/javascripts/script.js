@@ -69,6 +69,6 @@ $(window).load(function() {
     $("#featured").orbit({
         bullets: false,
         captions: false,
-        timer: true
+        timer: false
     });
 });

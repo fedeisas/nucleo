@@ -39,8 +39,8 @@
 				</a>
 			</li>
 			<li class="social">
-				<a href="<?=$this->config->item('minoristas.facebook_url')?>" class="twitter" title="Twitter">Twitter</a>
-				<a href="<?=$this->config->item('minoristas.facebook_url')?>" class="facebook" title="Facebook">Facebook</a>
+				<a target="_blank" href="<?=$this->config->item('minoristas.twitter_url')?>" class="twitter" title="Twitter">Twitter</a>
+				<a target="_blank" href="<?=$this->config->item('minoristas.facebook_url')?>" class="facebook" title="Facebook">Facebook</a>
 			</li>
 		</ul>
 

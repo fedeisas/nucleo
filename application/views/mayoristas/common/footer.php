@@ -2,10 +2,10 @@
 	
 	<div class="six mobile-two columns">
 		<p style="text-align:left;">
-			<a href="#" class="newsletter">
+			<!-- <a href="#" class="newsletter">
 				<span class="icon"></span>
 				Sucribite al newsletter
-			</a>
+			</a> -->
 		</p>
 	</div>
 

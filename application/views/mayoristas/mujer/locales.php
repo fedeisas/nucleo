@@ -3,7 +3,7 @@
 	<section role="main">
 
 		<div class="four columns">
-			<img src="<?=site_url('assets/images/locales-ncl.jpg')?>" alt="Locales">
+			<img src="<?=site_url('assets/images/locales-ncl3.jpg')?>" alt="Locales">
 		</div>
 
 		<div class="eight columns">
@@ -17,7 +17,7 @@
 					<p>Capital Federal</p>
 					<p><em>Buenos Aires, Argentina</em></p>
 				
-					<p class="phone">tel. (5411) 4111 1111</p>
+					<p class="phone">tel. (5411) 6088 9711</p>
 				
 				</div>
 				<div class="six columns address">
@@ -27,7 +27,7 @@
 					<p>Juan Manuel de Rosas 3910, Local 111</p>
 					<p><em>Buenos Aires, Argentina</em></p>
 				
-					<p class="phone">tel. (5411) 4888 8888</p>
+					<p class="phone">tel. (5411) 4480 2911</p>
 				
 				</div>
 			</div>
