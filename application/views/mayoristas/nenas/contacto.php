@@ -9,7 +9,7 @@
 
 			<p class="suggest">Sugerimos leer las <a href="<?=site_url( $this->router->class . "/preguntas" )?>">preguntas frecuentes</a> antes de enviar tu consulta.</p>
 
-			<?=form_open('contact/send', array('id' => 'contact-form'))?>
+			<?=form_open('contact/send', array('id' => 'contact-form', 'class' => 'nenas'))?>
 				<input type="text" placeholder="nombre" name="name" class="required">
 				<input type="text" placeholder="email" name="email" class="required email">
 				<input type="text" placeholder="asunto" name="subject" class="required">
@@ -32,7 +32,7 @@
 			</p>
 
 			<p class="phone">
-				tel. (5411) 4115 011 (líneas rotativas)
+				tel. (5411) 4115 0011 (líneas rotativas)
 			</p>
 
 			<p class="address">

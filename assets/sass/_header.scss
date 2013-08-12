@@ -116,7 +116,8 @@ a.menu-button.button:hover {
 .nenas .menu li a:visited,
 .nenas .menu li.social,
 .nenas .menu li.active a {
-	background-color: #d39886;
+	background-color: #F9E3BE;
+	color: #000;
 }
 
 .mujer .menu li a,
@@ -124,4 +125,12 @@ a.menu-button.button:hover {
 .mujer .menu li.social,
 .mujer .menu li.active a {
 	background-color: #000000;
+}
+
+.teens .menu li a,
+.teens .menu li a:visited,
+.teens .menu li.social,
+.teens .menu li.active a {
+	background-color: #F7C4BB;
+	color: #000;
 }

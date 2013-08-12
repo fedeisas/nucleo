@@ -1,5 +1,5 @@
 .home {
-	.splash-mujer, .splash-nenas {
+	.splash-mujer, .splash-nenas, .splash-teens {
 		display:block;
 		margin: 0 auto;
 		text-align: center;
@@ -13,6 +13,13 @@
 		}
 		
 	}
+	.splash-mujer, .splash-nenas {
+		width: 220px;
+	}
+	.splash-teens {
+		width: 470px;
+	}
+
 	a.home-buttons {
 		display: block;
 	    height: 106px;
@@ -26,6 +33,10 @@
 		}
 		&.nenas {
 			background-position: -246px 0px;			
+		}
+		&.teens {
+			background: transparent url('../images/teen-button.png') no-repeat center center scroll;
+			background-position: 0px -18px;			
 		}
 
 		&:hover {

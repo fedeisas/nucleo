@@ -14,8 +14,8 @@
 
 		<ul class="menu hide-for-small">
 			<li class="<?=active('coleccion', 2)?> <?=active('', 2)?>">
-				<a href="<?=site_url($this->router->class . '/coleccion')?>" title="colección invierno 2013">
-					colección invierno 2013
+				<a href="<?=site_url($this->router->class . '/coleccion')?>" title="colección verano 2014">
+					colección verano 2014
 				</a>
 			</li>
 			<li class="<?=active('video', 2)?>">
@@ -38,10 +38,10 @@
 					inicio
 				</a>
 			</li>
-			<li class="social">
+			<!-- <li class="social">
 				<a target="_blank" href="<?=$this->config->item('mayoristas.twitter_url')?>" class="twitter" title="Twitter">Twitter</a>
 				<a target="_blank" href="<?=$this->config->item('mayoristas.facebook_url')?>" class="facebook" title="Facebook">Facebook</a>
-			</li>
+			</li> -->
 		</ul>
 
 		<p class="show-for-small">

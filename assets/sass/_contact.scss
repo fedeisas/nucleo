@@ -63,14 +63,36 @@
 		}
 	}
 
-	form.green {
+	form.mujer {
 		input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
-			background-color: #75826F;
+			background-color: #464452;
 			color: #FFF;
 		}
 		.button.secondary {
-		    background-color: #75826F;
+		    background-color: #464452;
 			color: #FFF;
 		}
+	}
+
+	form.nenas {
+		input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
+			background-color: #F9E3BE;
+			color: #000;
+		}
+		.button.secondary {
+		    background-color: #F9E3BE;
+			color: #000;
+		}	
+	}
+
+	form.teens {
+		input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
+			background-color: #F7C4BB;
+			color: #000;
+		}
+		.button.secondary {
+		    background-color: #F7C4BB;
+			color: #000;
+		}	
 	}
 }
