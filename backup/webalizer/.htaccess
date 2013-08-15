@@ -1,5 +1,0 @@
-AuthType Basic
-AuthName www.nucleomoda.com.ar
-AuthUserFile /home/virtual/site170/fst/etc/webalizer/.passwd
-AuthGroupFile /dev/null
-Require valid-user
