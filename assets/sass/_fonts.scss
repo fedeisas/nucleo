@@ -1,2 +1,18 @@
-@include font-face("FuturaStdBook", font-files("FuturaStd-Book.ttf", "FuturaStd-Book.svg"), "FuturaStd-Book.eot");
-@include font-face("FuturaStdLight", font-files("FuturaStd-Light.ttf", "FuturaStd-Light.svg"), "FuturaStd-Light.eot");
+// @include font-face("FuturaStdBook", font-files("FuturaStd-Book.ttf", "FuturaStd-Book.svg"), "FuturaStd-Book.eot");
+// @include font-face("FuturaStdLight", font-files("FuturaStd-Light.ttf", "FuturaStd-Light.svg"), "FuturaStd-Light.eot");
+
+@font-face {
+  font-family: "FuturaStdBook";
+  src: url('../fonts/FuturaStd-Book-autohinted.eot');
+  src: url('../fonts/FuturaStd-Book-autohinted.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/FuturaStd-Book-autohinted.ttf') format('truetype'),
+  url('../fonts/FuturaStd-Book.svg#FuturaStdBook') format('svg');
+}
+
+@font-face {
+  font-family: "FuturaStdLight";
+  src: url('../fonts/FuturaStd-Light-autohinted.eot');
+  src: url('../fonts/FuturaStd-Light-autohinted.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/FuturaStd-Light-autohinted.ttf') format('truetype'),
+  url('../fonts/FuturaStd-Light.svg#FuturaStdLight') format('svg');
+}

@@ -3,10 +3,11 @@
 
 	h3.question, p.answer {
 		padding: 0px 20px;
+		-webkit-font-smoothing: antialiased; 
 	}
 
 	h3.question {
-		letter-spacing:-1px;
+		letter-spacing:1px;
 		font-size:ms(1);
 		color:#000;
 		margin:0px 0px 5px;
@@ -14,8 +15,9 @@
 	}
 
 	p.answer {
-		font-family: "FuturaStdLight", sans-serif;
+		// font-family: "FuturaStdBook", sans-serif;
 		font-size:ms(0);
+		font-weight: 300;
 		color:#000;
 		margin:0px 0px 20px;
 	}

@@ -32,7 +32,7 @@
 			</p>
 
 			<p class="phone">
-				tel. (5411) 4115 0011 (líneas rotativas)
+				tel. (5411) 4674 4798 
 			</p>
 
 			<p class="address">
