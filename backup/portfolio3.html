@@ -1,0 +1,127 @@
+<script type="text/javascript" src="js/my_filter.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.filter_toggle').click(function(){
+			if($(this).hasClass('show')) {
+				$('.filter_ul').stop().animate({'left' : '0px'}, 800);
+				$(this).removeClass('show');
+				$(this).html('Hide filter<span></span>');				
+			}
+			else {
+				$('.filter_ul').stop().animate({'left' : '-790px'}, 800);
+				$(this).addClass('show');
+				$(this).html('Show filter<span></span>');
+			}
+		});
+		$('.image-grid img').each(function(){
+			$(this).wrap('<div class="portfolio_wrapper"></div>');
+			$(this).after('<div class="portfolio_overlay"><span class="img_descr">'+$(this).attr('alt')+'</span><div class="img_buttons"><a href="#" class="btn_postlink"></a><a href="'+$(this).attr('data-img')+'" class="btn_zoom"></a></div></div>');			
+		});
+		setTimeout("$('a.btn_zoom').prettyPhoto();",300);
+		if (!$.browser.msie || $.browser.version >= 9) { 
+			$('.image-grid').find('.portfolio_overlay').animate({'opacity' : 0},1);
+			$('.image-grid').find('.portfolio_overlay').css('display', 'block');
+		}
+	});
+</script>
+<div class="page_wrapper">
+	<h3>Colección Primavera-Verano <span>2013</span></h3>
+	<!--<div class="filter_navigation">
+    	<a href="javascript:void(0)" class="filter_toggle">Hide filter<span></span></a>
+        <ul class="filter_ul">
+			<li class="selected"><a href="javascript:void(0)" rel="all">All photos</a></li>
+			<li><a href="javascript:void(0)" rel="fashion">Fashion</a></li>
+			<li><a href="javascript:void(0)" rel="beauty">Beauty</a></li>
+			<li><a href="javascript:void(0)" rel="nature">Nature</a></li>
+        </ul>    
+	</div>-->
+	<ul class="image-grid columns3" id="list">            
+		<li data-id="fashion">
+        	<img src="img/portfolio/pic_portfolio3-1.jpg" data-img="img/gallery/fashion/fashion1.jpg" alt="Páginas 2-3" width="256" height="181"/>
+        </li>      
+		<li data-id="beauty">
+        	<img src="img/portfolio/pic_portfolio3-2.jpg" data-img="img/gallery/fashion/fashion2.jpg" alt="Páginas 4-5" width="256" height="181"/>
+        </li>      
+		<li data-id="nature">
+        	<img src="img/portfolio/pic_portfolio3-3.jpg" data-img="img/gallery/fashion/fashion3.jpg" alt="Páginas 6-7" width="256" height="181"/>
+        </li>      
+		<li data-id="fashion">
+        	<img src="img/portfolio/pic_portfolio3-4.jpg" data-img="img/gallery/fashion/fashion4.jpg" alt="Páginas 8-9" width="256" height="181"/>
+        </li>      
+		<li data-id="beauty">
+        	<img src="img/portfolio/pic_portfolio3-5.jpg" data-img="img/gallery/fashion/fashion5.jpg" alt="Páginas 10-11" width="256" height="181"/>
+        </li>      
+		<li data-id="nature">
+        	<img src="img/portfolio/pic_portfolio3-6.jpg" data-img="img/gallery/fashion/fashion6.jpg" alt="Páginas 12-13" width="256" height="181"/>
+        </li>      
+		<li data-id="fashion">
+        	<img src="img/portfolio/pic_portfolio3-7.jpg" data-img="img/gallery/fashion/fashion7.jpg" alt="Páginas 14-15" width="256" height="181"/>
+        </li>      
+		<li data-id="beauty">
+        	<img src="img/portfolio/pic_portfolio3-8.jpg" data-img="img/gallery/fashion/fashion8.jpg" alt="Páginas 16-17" width="256" height="181"/>
+        </li>      
+		<li data-id="nature">
+        	<img src="img/portfolio/pic_portfolio3-9.jpg" data-img="img/gallery/fashion/fashion9.jpg" alt="Páginas 18-19" width="256" height="181"/>
+        </li>      
+		<li data-id="fashion">
+        	<img src="img/portfolio/pic_portfolio3-10.jpg" data-img="img/gallery/fashion/fashion10.jpg" alt="Páginas 20-21" width="256" height="181"/>
+        </li>      
+		<li data-id="beauty">
+        	<img src="img/portfolio/pic_portfolio3-11.jpg" data-img="img/gallery/fashion/fashion11.jpg" alt="Páginas 22-23" width="256" height="181"/>
+        </li>      
+		<li data-id="nature">
+        	<img src="img/portfolio/pic_portfolio3-12.jpg" data-img="img/gallery/fashion/fashion12.jpg" alt="Páginas 24-25" width="256" height="181"/>
+        </li>  
+        <li data-id="nature">
+        	<img src="img/portfolio/pic_portfolio3-13.jpg" data-img="img/gallery/fashion/fashion13.jpg" alt="Páginas 26-27" width="256" height="181"/>
+        </li>      
+		<li data-id="fashion">
+        	<img src="img/portfolio/pic_portfolio3-14.jpg" data-img="img/gallery/fashion/fashion14.jpg" alt="Páginas 28-29" width="256" height="181"/>
+        </li>      
+		<li data-id="beauty">
+        	<img src="img/portfolio/pic_portfolio3-15.jpg" data-img="img/gallery/fashion/fashion15.jpg" alt="Páginas 30-31" width="256" height="181"/>
+        </li>      
+		<li data-id="nature">
+        	<img src="img/portfolio/pic_portfolio3-16.jpg" data-img="img/gallery/fashion/fashion16.jpg" alt="Páginas 32-33" width="256" height="181"/>
+        </li>      
+		<li data-id="fashion">
+        	<img src="img/portfolio/pic_portfolio3-17.jpg" data-img="img/gallery/fashion/fashion17.jpg" alt="Páginas 34-35" width="256" height="181"/>
+        </li>      
+		<li data-id="beauty">
+        	<img src="img/portfolio/pic_portfolio3-18.jpg" data-img="img/gallery/fashion/fashion18.jpg" alt="Páginas 36-37" width="256" height="181"/>
+        </li>      
+		<li data-id="nature">
+        	<img src="img/portfolio/pic_portfolio3-19.jpg" data-img="img/gallery/fashion/fashion19.jpg" alt="Páginas 38-39" width="256" height="181"/>
+        </li>      
+		<li data-id="fashion">
+        	<img src="img/portfolio/pic_portfolio3-20.jpg" data-img="img/gallery/fashion/fashion20.jpg" alt="Páginas 40-41" width="256" height="181"/>
+        </li> 
+        <li data-id="beauty">
+        	<img src="img/portfolio/pic_portfolio3-21.jpg" data-img="img/gallery/fashion/fashion21.jpg" alt="Páginas 42-43" width="256" height="181"/>
+        </li>      
+		<li data-id="nature">
+        	<img src="img/portfolio/pic_portfolio3-22.jpg" data-img="img/gallery/fashion/fashion22.jpg" alt="Páginas 44-45" width="256" height="181"/>
+        </li>  
+        <li data-id="nature">
+        	<img src="img/portfolio/pic_portfolio3-23.jpg" data-img="img/gallery/fashion/fashion23.jpg" alt="Páginas 46-47" width="256" height="181"/>
+        </li>      
+		<li data-id="fashion">
+        	<img src="img/portfolio/pic_portfolio3-24.jpg" data-img="img/gallery/fashion/fashion24.jpg" alt="Páginas 48-49" width="256" height="181"/>
+        </li>      
+		<li data-id="beauty">
+        	<img src="img/portfolio/pic_portfolio3-25.jpg" data-img="img/gallery/fashion/fashion25.jpg" alt="Páginas 50-51" width="256" height="181"/>
+        </li>      
+		<li data-id="nature">
+        	<img src="img/portfolio/pic_portfolio3-26.jpg" data-img="img/gallery/fashion/fashion26.jpg" alt="Páginas 52-53" width="256" height="181"/>
+        </li>      
+		<li data-id="fashion">
+        	<img src="img/portfolio/pic_portfolio3-27.jpg" data-img="img/gallery/fashion/fashion27.jpg" alt="Páginas 54-55" width="256" height="181"/>
+        </li>      
+		<li data-id="beauty">
+        	<img src="img/portfolio/pic_portfolio3-28.jpg" data-img="img/gallery/fashion/fashion28.jpg" alt="Páginas 56-57" width="256" height="181"/>
+        </li>      
+		<li data-id="nature">
+        	<img src="img/portfolio/pic_portfolio3-29.jpg" data-img="img/gallery/fashion/fashion29.jpg" alt="Páginas 58-59" width="256" height="181"/>
+        </li>             
+	</ul>    
+</div>

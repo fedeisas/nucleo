@@ -1,0 +1,21 @@
+<div class="page_wrapper">
+	<h3>Kit de<span> Prensa</span></h3>
+    <p>Ingrese la clave para acceder al kit de prensa. </p>
+    <hr class="dotted"/>
+    <form id="form1" name="form1" method="post" action="" class="protected">
+        <input type="text" name="pass_field" id="pass_field" /><button class="medium grey" type="button" id="enter_gallery">Entrar</button>        
+    </form>
+    <script type="text/javascript">
+		$(document).ready(function(){
+			$('#enter_gallery').click(function() {
+			pass_var = $('#pass_field').val();
+				$.post("protected.php", { pass_field : pass_var}, function(data) {
+					$('#append_box').append(data);
+				});
+			});
+		});
+		
+	</script>
+    <div id="append_box"></div>
+    <div id="error"></div>
+</div>

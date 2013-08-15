@@ -1,0 +1,71 @@
+<script type="text/javascript" src="js/my_filter.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.filter_toggle').click(function(){
+			if($(this).hasClass('show')) {
+				$('.filter_ul').stop().animate({'left' : '0px'}, 800);
+				$(this).removeClass('show');
+				$(this).html('Hide filter<span></span>');				
+			}
+			else {
+				$('.filter_ul').stop().animate({'left' : '-790px'}, 800);
+				$(this).addClass('show');
+				$(this).html('Show filter<span></span>');
+			}
+		});
+		$('.image-grid img').each(function(){
+			$(this).wrap('<div class="portfolio_wrapper"></div>');
+			$(this).after('<div class="portfolio_overlay"><span class="img_descr">'+$(this).attr('alt')+'</span><div class="img_buttons"><a href="#" class="btn_postlink"></a><a href="'+$(this).attr('data-img')+'" class="btn_zoom" ></a></div></div>');			
+		});
+		setTimeout("$('a.btn_zoom').prettyPhoto();",300);
+		if (!$.browser.msie || $.browser.version >= 9) { 
+			$('.image-grid').find('.portfolio_overlay').animate({'opacity' : 0},1);
+			$('.image-grid').find('.portfolio_overlay').css('display', 'block');
+		}
+	});
+</script>
+<div class="page_wrapper">
+	<h3>Mallas 2013</h3>
+	<ul class="image-grid columns2" id="list">            
+	  <li data-id="mallas">
+        	<img src="img/mallas/mallas1.jpg" data-img="img/mallas/large/mallas1.jpg" alt="" width="385" height="230"/>
+        </li>      
+		<li data-id="mallas">
+        	<img src="img/mallas/mallas2.jpg" data-img="img/mallas/large/mallas2.jpg" alt="" width="385" height="230"/>
+        </li>      
+		<li data-id="mallas">
+        	<img src="img/mallas/mallas3.jpg" data-img="img/mallas/large/mallas3.jpg" alt="" width="385" height="230"/>
+        </li>      
+		<li data-id="mallas">
+        	<img src="img/mallas/mallas4.jpg" data-img="img/mallas/large/mallas4.jpg" alt="" width="385" height="230"/>
+        </li>      
+		<li data-id="mallas">
+        	<img src="img/mallas/mallas5.jpg" data-img="img/mallas/large/mallas5.jpg" alt="" width="385" height="230"/>
+        </li>      
+		<li data-id="mallas">
+        	<img src="img/mallas/mallas6.jpg" data-img="img/mallas/large/mallas6.jpg" alt="" width="385" height="230"/>
+        </li>      
+        <li data-id="mallas">
+        	<img src="img/mallas/mallas7.jpg" data-img="img/mallas/large/mallas7.jpg" alt="" width="385" height="230"/>
+        </li>
+        <li data-id="mallas">
+        	<img src="img/mallas/mallas8.jpg" data-img="img/mallas/large/mallas8.jpg" alt="" width="385" height="230"/>
+        </li>
+        <li data-id="mallas">
+        	<img src="img/mallas/mallas9.jpg" data-img="img/mallas/large/mallas9.jpg" alt="" width="385" height="230"/>
+        </li>
+        <li data-id="mallas">
+        	<img src="img/mallas/mallas10.jpg" data-img="img/mallas/large/mallas10.jpg" alt="" width="385" height="230"/>
+        </li>
+        <li data-id="mallas">
+        	<img src="img/mallas/mallas11.jpg" data-img="img/mallas/large/mallas11.jpg" alt="" width="385" height="230"/>
+        </li>
+        <li data-id="mallas">
+        	<img src="img/mallas/mallas12.jpg" data-img="img/mallas/large/mallas12.jpg" alt="" width="385" height="230"/>
+        </li>
+        <li data-id="mallas">
+        	<img src="img/mallas/mallas13.jpg" data-img="img/mallas/large/mallas13.jpg" alt="" width="385" height="230"/>
+        </li>
+        
+	</ul>    
+</div>
