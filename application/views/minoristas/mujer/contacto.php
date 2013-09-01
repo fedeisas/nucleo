@@ -1,12 +1,12 @@
 <div class="row contact-content">
 	<section role="main">
 		<div class="six columns">
-			<img src="<?=site_url('assets/images/contacto-mujer-minoristas.jpg')?>" alt="Contacto">
+			<img src="<?=site_url('assets/images/contacto-mujer-minoristas-2.jpg')?>" alt="Contacto">
 		</div>
 		<div class="six columns">
 			<h2>Mandanos un mail</h2>
 
-			<?=form_open('contact/send', array('id' => 'contact-form'))?>
+			<?=form_open('contact/send', array('id' => 'contact-form', 'class' => 'mujer'))?>
 				<input type="text" value="nombre" name="name" class="required placeholder">
 				<input type="text" value="email" name="email" class="required email placeholder">
 				<input type="text" value="asunto" name="subject" class="required placeholder">

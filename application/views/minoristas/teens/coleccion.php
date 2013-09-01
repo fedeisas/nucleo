@@ -3,8 +3,8 @@
 	<section role="main">
 		<div class="twelve columns">
 			<div id="featured">
-				<?php foreach(range(1, 27) as $number): ?>
-					<img src="<?=site_url('assets/images/slide-mujer/new/' . $number . '.jpg')?>" alt="NucleoModa.net">
+				<?php foreach(range(1,8) as $number): ?>
+					<img src="<?=site_url('assets/images/slide-teens/' . $number . '.jpg')?>" alt="NucleoModa.net">
 				<?php endforeach; ?>
 			</div>
 		</div>
