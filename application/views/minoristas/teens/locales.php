@@ -3,7 +3,7 @@
 	<section role="main">
 
 		<div class="four columns">
-			<img src="<?=site_url('assets/images/locales_teens.jpg')?>" alt="Locales">
+			<img src="<?=site_url('assets/images/locales_teens_2.jpg')?>" alt="Locales">
 		</div>
 
 		<div class="eight columns">
